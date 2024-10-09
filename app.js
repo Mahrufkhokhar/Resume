@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const port = 8000;
 const web = require("./routes/web");
 const path = require("path");
 
@@ -9,6 +10,6 @@ app.set("view engine", "ejs");
 app.use("/", web);
 
 
-app.listen(8000, () => {
+app.listen(port, () => {
   console.log("success");
 });

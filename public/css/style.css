@@ -4,11 +4,10 @@
     font-family: 'Satisfy', cursive;
 }
 
-body {
-    height: 100%;
-}
+
 .container-fluid {
     min-height: 100%;
+    position: absolute;
 }
 
 .nav-link.active {
