@@ -13,3 +13,4 @@ app.use("/", web);
 app.listen(port, () => {
   console.log("success");
 });
+module.exports=app
