@@ -7,7 +7,7 @@ const {skillController} = require('../controller/skillController')
 
 
 
-router.get('/home', homeController)
+router.get('/', homeController)
 router.get('/contact', contactController)
 router.get('/services', servicesController)
 router.get('/skill', skillController)
